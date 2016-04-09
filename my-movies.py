@@ -49,5 +49,8 @@ bourne_identity = media.Movie("The Bourne Identity",
                               "2002",
                               "1h 59min")
 
+# Collect all movies to create tiles for on webpage
 my_movies = [star_wars, star_trek, gravity, avengers, casino_royale, bourne_identity]
+
+# Create a tile for each movie and generate a webpage
 render_movies.open_movies_page(my_movies)
